@@ -1,0 +1,125 @@
+body {
+    margin: 0; 
+    padding: 0; 
+    background-color: whitesmoke; 
+}
+
+.nametag {  
+    background-color: #5B84AB;  
+    width: 100%; 
+    height: 100%; 
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    color: #ffffff; 
+    text-shadow: 5px 5px 15px #010101;
+}
+
+.nametag h1 {
+    font-size: 42pt; 
+    margin: 0 auto; 
+    padding: 0.33em; 
+}
+
+.nametag h2 {
+    font-size: 36pt; 
+}
+
+.navbar {
+    top: 0; 
+    left: 0; 
+    background-color: whitesmoke; 
+    width: 100%;
+    padding: 3px; 
+    text-align: center; 
+}
+
+.navbar a {
+    font-family: 'Open Sans'; 
+    padding: 1em; 
+    margin: 2em; 
+    text-decoration: none; 
+    color: #010101; 
+}
+
+.navbar a:hover {
+    color: #b53535;
+}
+
+#mainbody {
+    display: grid;  
+}
+
+li {
+    list-style: none; 
+    display: inline; 
+}
+
+span {
+    font-family: 'Merriweather', serif;
+    text-transform: capitalize;
+    text-emphasis: bold; 
+    font-weight: 300; 
+    font-size: 1.25em; 
+}
+
+.info1 {
+    padding: 0.15em 2em 0.15em 2em;
+    background-color: #FFEFD4;
+}
+
+p {
+    font-size: 1.25em; 
+    font-family: 'Open Sans'
+}
+
+.buttonContainer {
+    text-align: center; 
+    padding: 2em; 
+}
+
+button {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    font-family: 'Open Sans'; 
+    font-size: 24px;
+    border-style: none; 
+    border-radius: 2%; 
+    padding: 1em;  
+}
+
+button:hover {
+    background-color: white; 
+}
+
+button:active {
+    transform: translateY(4px);
+}
+
+.essayOutline {
+    grid-template-rows: 200px 200px 200px; 
+}
+
+.essayOutline div {
+    margin: 50px;  
+}
+
+.essayOutline p {
+    text-align: center; 
+}
+
+textarea {
+    resize: none;
+    overflow: auto; 
+    height: 10em;  
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 1%; 
+    border-color: red; 
+    width: 85%; 
+    font-family: 'Open Sans'; 
+    font-size: 1em; 
+}
+
+textarea:focus {
+    border: 3px solid black; 
+}
